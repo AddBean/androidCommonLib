@@ -32,25 +32,25 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>HiveApp.features</groupId>
+      <groupId>HiveApp2.features</groupId>
       <artifactId>libFiles</artifactId>
       <version>unspecified</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>HiveApp.features</groupId>
+      <groupId>HiveApp2.features</groupId>
       <artifactId>libEditor</artifactId>
       <version>unspecified</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>HiveApp.features</groupId>
+      <groupId>HiveApp2.features</groupId>
       <artifactId>libOpenCV</artifactId>
       <version>unspecified</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>HiveApp.features</groupId>
+      <groupId>HiveApp2.features</groupId>
       <artifactId>libTimer</artifactId>
       <version>unspecified</version>
       <scope>compile</scope>

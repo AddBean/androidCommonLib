@@ -14,7 +14,7 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>HiveApp.framework</groupId>
+      <groupId>HiveApp2.framework</groupId>
       <artifactId>libUtils</artifactId>
       <version>unspecified</version>
       <scope>compile</scope>

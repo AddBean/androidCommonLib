@@ -8,7 +8,7 @@
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
-      <groupId>HiveApp.framework</groupId>
+      <groupId>HiveApp2.framework</groupId>
       <artifactId>libUtils</artifactId>
       <version>unspecified</version>
       <scope>compile</scope>

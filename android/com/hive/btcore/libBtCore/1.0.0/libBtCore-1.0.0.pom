@@ -8,13 +8,13 @@
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
-      <groupId>HiveApp.framework</groupId>
+      <groupId>HiveApp2.framework</groupId>
       <artifactId>libBase</artifactId>
       <version>unspecified</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>HiveApp.framework</groupId>
+      <groupId>HiveApp2.framework</groupId>
       <artifactId>libCompon</artifactId>
       <version>unspecified</version>
       <scope>compile</scope>
