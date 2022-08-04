@@ -8,42 +8,6 @@
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
-      <groupId>HiveApp2.framework</groupId>
-      <artifactId>libViews</artifactId>
-      <version>unspecified</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>HiveApp2.framework</groupId>
-      <artifactId>libCompon</artifactId>
-      <version>unspecified</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>HiveApp2.framework</groupId>
-      <artifactId>libNet</artifactId>
-      <version>unspecified</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>HiveApp2.framework</groupId>
-      <artifactId>libUtils</artifactId>
-      <version>unspecified</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>HiveApp2.framework</groupId>
-      <artifactId>libSkin</artifactId>
-      <version>unspecified</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>HiveApp2.framework</groupId>
-      <artifactId>libBaseNative</artifactId>
-      <version>unspecified</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
       <groupId>org.aspectj</groupId>
       <artifactId>aspectjrt</artifactId>
       <version>1.9.4</version>

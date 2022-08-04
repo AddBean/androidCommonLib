@@ -14,12 +14,6 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>HiveApp2.framework</groupId>
-      <artifactId>libBase</artifactId>
-      <version>unspecified</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
       <groupId>pl.droidsonroids.gif</groupId>
       <artifactId>android-gif-drawable</artifactId>
       <version>1.2.12</version>

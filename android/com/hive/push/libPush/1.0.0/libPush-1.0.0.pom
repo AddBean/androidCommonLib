@@ -8,24 +8,6 @@
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
-      <groupId>HiveApp2.framework</groupId>
-      <artifactId>libUtils</artifactId>
-      <version>unspecified</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>HiveApp2.framework</groupId>
-      <artifactId>libCompon</artifactId>
-      <version>unspecified</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>HiveApp2.framework</groupId>
-      <artifactId>libBase</artifactId>
-      <version>unspecified</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
       <groupId>com.google.firebase</groupId>
       <artifactId>firebase-messaging</artifactId>
       <version>21.0.0</version>

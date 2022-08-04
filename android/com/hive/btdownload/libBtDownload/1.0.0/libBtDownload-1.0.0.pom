@@ -38,18 +38,6 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>HiveApp2.framework</groupId>
-      <artifactId>libBase</artifactId>
-      <version>unspecified</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>HiveApp2.features</groupId>
-      <artifactId>libFiles</artifactId>
-      <version>unspecified</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
       <groupId>androidx.room</groupId>
       <artifactId>room-rxjava2</artifactId>
       <version>2.2.6</version>
