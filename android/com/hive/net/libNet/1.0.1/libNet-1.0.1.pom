@@ -40,7 +40,7 @@
     <dependency>
       <groupId>com.hive.compon</groupId>
       <artifactId>libCompon</artifactId>
-      <version>1.0.6</version>
+      <version>1.0.8</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
