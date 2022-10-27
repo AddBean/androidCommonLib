@@ -52,13 +52,13 @@
     <dependency>
       <groupId>com.hive.basenative</groupId>
       <artifactId>libBaseNative</artifactId>
-      <version>1.0.1</version>
+      <version>1.0.2</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.hive.base</groupId>
       <artifactId>libBase</artifactId>
-      <version>1.0.2</version>
+      <version>1.0.5</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
