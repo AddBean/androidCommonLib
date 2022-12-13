@@ -1,0 +1,151 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.hive.basenative",
+    "module": "libBaseNative",
+    "version": "1.0.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "libBaseNative-1.0.2-SNAPSHOT.aar",
+          "url": "libBaseNative-1.0.2-SNAPSHOT.aar",
+          "size": 64509,
+          "sha512": "fb24ce48ac1020450130a89e0bf91264fd71bb9fe73833ee0e00212feddf8639602008ca5ea77a993bdbe5673109bd3f16820101fb9823f012fa9b1635e95cee",
+          "sha256": "b2a3157a3fda81e8e2e379130bcd4faa394f5fe698177fceb804c062b80db4f3",
+          "sha1": "5c59f2bba5199bb53ad6b589f774f2b097c359af",
+          "md5": "1530be82426ab484f7320aeb73ce4fb6"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.71"
+          }
+        },
+        {
+          "group": "com.hive.utils",
+          "module": "libUtils",
+          "version": {
+            "requires": "1.0.5-SNAPSHOT"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "1.1.3"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.legacy",
+          "module": "legacy-support-v4",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.cardview",
+          "module": "cardview",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.takisoft.preferencex",
+          "module": "preferencex",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.2"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxandroid",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "org.greenrobot",
+          "module": "eventbus",
+          "version": {
+            "requires": "3.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "libBaseNative-1.0.2-SNAPSHOT.aar",
+          "url": "libBaseNative-1.0.2-SNAPSHOT.aar",
+          "size": 64509,
+          "sha512": "fb24ce48ac1020450130a89e0bf91264fd71bb9fe73833ee0e00212feddf8639602008ca5ea77a993bdbe5673109bd3f16820101fb9823f012fa9b1635e95cee",
+          "sha256": "b2a3157a3fda81e8e2e379130bcd4faa394f5fe698177fceb804c062b80db4f3",
+          "sha1": "5c59f2bba5199bb53ad6b589f774f2b097c359af",
+          "md5": "1530be82426ab484f7320aeb73ce4fb6"
+        }
+      ]
+    }
+  ]
+}

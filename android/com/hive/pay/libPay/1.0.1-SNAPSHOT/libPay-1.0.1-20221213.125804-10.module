@@ -1,0 +1,151 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.hive.pay",
+    "module": "libPay",
+    "version": "1.0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "libPay-1.0.1-SNAPSHOT.aar",
+          "url": "libPay-1.0.1-SNAPSHOT.aar",
+          "size": 25618,
+          "sha512": "222867196d71cf2182ccb7631b1ce0f113b285d9d1441c45d6217ec962224fab46138ad3f2db293978242c038d701230b4b145037e6bddeefc15092628b4399f",
+          "sha256": "dd9b8e883684e25a4c6dc106193cce1aaad0f4a7101796b77adfb82c04b853ac",
+          "sha1": "6d933796eab7a8e967a306dd9c71ad874dac0ab0",
+          "md5": "42335ed8036eef4a38213297a611ca50"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.hive.base",
+          "module": "libBase",
+          "version": {
+            "requires": "1.0.5-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "exoplayer",
+          "version": {
+            "requires": "r1.5.11"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "1.1.3"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.legacy",
+          "module": "legacy-support-v4",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.cardview",
+          "module": "cardview",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.takisoft.preferencex",
+          "module": "preferencex",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.2"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxandroid",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "org.greenrobot",
+          "module": "eventbus",
+          "version": {
+            "requires": "3.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "libPay-1.0.1-SNAPSHOT.aar",
+          "url": "libPay-1.0.1-SNAPSHOT.aar",
+          "size": 25618,
+          "sha512": "222867196d71cf2182ccb7631b1ce0f113b285d9d1441c45d6217ec962224fab46138ad3f2db293978242c038d701230b4b145037e6bddeefc15092628b4399f",
+          "sha256": "dd9b8e883684e25a4c6dc106193cce1aaad0f4a7101796b77adfb82c04b853ac",
+          "sha1": "6d933796eab7a8e967a306dd9c71ad874dac0ab0",
+          "md5": "42335ed8036eef4a38213297a611ca50"
+        }
+      ]
+    }
+  ]
+}

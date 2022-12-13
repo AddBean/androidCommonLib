@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.hive.compon",
+    "module": "libCompon",
+    "version": "1.0.10-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "libCompon-1.0.10-SNAPSHOT.aar",
+          "url": "libCompon-1.0.10-SNAPSHOT.aar",
+          "size": 46701,
+          "sha512": "d63f2f6b59d3b761e91863e740790a4aeb77c73d3d917b52528427fbdb2b240685a80834527ab35269ca6d707998732b058efa27aabeb28f7a95fc8ae1692ff7",
+          "sha256": "421ccf6054caa99e927522627a4ea5571ad8beaa04af5a1fa38d7d248df13785",
+          "sha1": "2d606569c1ac35b41f979ac45dba12874745d354",
+          "md5": "ef30f4f89da83a8a8937b78ccd6c8402"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.aspectj",
+          "module": "aspectjrt",
+          "version": {
+            "requires": "1.9.4"
+          }
+        },
+        {
+          "group": "com.hive.views",
+          "module": "libViews",
+          "version": {
+            "requires": "1.0.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.hive.utils",
+          "module": "libUtils",
+          "version": {
+            "requires": "1.0.5-SNAPSHOT"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "1.1.3"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.legacy",
+          "module": "legacy-support-v4",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.cardview",
+          "module": "cardview",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.takisoft.preferencex",
+          "module": "preferencex",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.2"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxandroid",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "org.greenrobot",
+          "module": "eventbus",
+          "version": {
+            "requires": "3.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "libCompon-1.0.10-SNAPSHOT.aar",
+          "url": "libCompon-1.0.10-SNAPSHOT.aar",
+          "size": 46701,
+          "sha512": "d63f2f6b59d3b761e91863e740790a4aeb77c73d3d917b52528427fbdb2b240685a80834527ab35269ca6d707998732b058efa27aabeb28f7a95fc8ae1692ff7",
+          "sha256": "421ccf6054caa99e927522627a4ea5571ad8beaa04af5a1fa38d7d248df13785",
+          "sha1": "2d606569c1ac35b41f979ac45dba12874745d354",
+          "md5": "ef30f4f89da83a8a8937b78ccd6c8402"
+        }
+      ]
+    }
+  ]
+}
