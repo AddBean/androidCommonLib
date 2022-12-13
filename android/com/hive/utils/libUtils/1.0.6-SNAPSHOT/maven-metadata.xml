@@ -5,25 +5,25 @@
   <version>1.0.6-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20221213.132928</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20221213.133455</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20221213132928</lastUpdated>
+    <lastUpdated>20221213133455</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>aar</extension>
-        <value>1.0.6-20221213.132928-1</value>
-        <updated>20221213132928</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>1.0.6-20221213.132928-1</value>
-        <updated>20221213132928</updated>
+        <value>1.0.6-20221213.133455-2</value>
+        <updated>20221213133455</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0.6-20221213.132928-1</value>
-        <updated>20221213132928</updated>
+        <value>1.0.6-20221213.133455-2</value>
+        <updated>20221213133455</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.0.6-20221213.133455-2</value>
+        <updated>20221213133455</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

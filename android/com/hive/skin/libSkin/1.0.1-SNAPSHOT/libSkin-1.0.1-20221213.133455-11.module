@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.hive.skin",
+    "module": "libSkin",
+    "version": "1.0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "libSkin-1.0.1-SNAPSHOT.aar",
+          "url": "libSkin-1.0.1-SNAPSHOT.aar",
+          "size": 86208,
+          "sha512": "20d95155e2bb262d99a00b372af5717745f1e7294ffff6e77dd5715e3fc69141694f071e2f141f5de1171325e326c035c05cedf16a286fecd2f3688b95295a42",
+          "sha256": "126898593b9f2db6228a1b6f06c80b47377565800c132a5f24732ce70c2b46d7",
+          "sha1": "28c13b7d43cd94d16c5443e2b2cf251960c41325",
+          "md5": "3ca47b5f18f6b52278485d49f7296628"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "1.1.3"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.legacy",
+          "module": "legacy-support-v4",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.cardview",
+          "module": "cardview",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.takisoft.preferencex",
+          "module": "preferencex",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.2"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxandroid",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "org.greenrobot",
+          "module": "eventbus",
+          "version": {
+            "requires": "3.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "libSkin-1.0.1-SNAPSHOT.aar",
+          "url": "libSkin-1.0.1-SNAPSHOT.aar",
+          "size": 86208,
+          "sha512": "20d95155e2bb262d99a00b372af5717745f1e7294ffff6e77dd5715e3fc69141694f071e2f141f5de1171325e326c035c05cedf16a286fecd2f3688b95295a42",
+          "sha256": "126898593b9f2db6228a1b6f06c80b47377565800c132a5f24732ce70c2b46d7",
+          "sha1": "28c13b7d43cd94d16c5443e2b2cf251960c41325",
+          "md5": "3ca47b5f18f6b52278485d49f7296628"
+        }
+      ]
+    }
+  ]
+}
