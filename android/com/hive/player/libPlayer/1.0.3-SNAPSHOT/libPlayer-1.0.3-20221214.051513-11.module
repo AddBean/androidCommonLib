@@ -1,0 +1,207 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.hive.player",
+    "module": "libPlayer",
+    "version": "1.0.3-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "libPlayer-1.0.3-SNAPSHOT.aar",
+          "url": "libPlayer-1.0.3-SNAPSHOT.aar",
+          "size": 9589648,
+          "sha512": "430673f88fe78a786f015fe8273ff03060534923b6278d346183a398b9858da7cbd98ac2f0416fd764bf518a94424fbe98c52ae8f2ebb073448f3cdbfe9857a6",
+          "sha256": "57714eb93709453d2090b3624da1f77b19368fdc129d160c82db4796505bf786",
+          "sha1": "8006ce12e38f05f6fcdf8e60284dea7725da6756",
+          "md5": "0be31f6a3651eee00f6e1fd6453ab83a"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-android-extensions-runtime",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.71"
+          }
+        },
+        {
+          "group": "com.hive.views",
+          "module": "libViews",
+          "version": {
+            "requires": "1.0.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.hive.utils",
+          "module": "libUtils",
+          "version": {
+            "requires": "1.0.6-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.hive.compon",
+          "module": "libCompon",
+          "version": {
+            "requires": "1.0.10-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.hive.image",
+          "module": "libImage",
+          "version": {
+            "requires": "1.0.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.hive.net",
+          "module": "libNet",
+          "version": {
+            "requires": "1.0.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.hive.basenative",
+          "module": "libBaseNative",
+          "version": {
+            "requires": "1.0.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.hive.base",
+          "module": "libBase",
+          "version": {
+            "requires": "1.0.5-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "exoplayer",
+          "version": {
+            "requires": "r1.5.11"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "1.1.3"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.legacy",
+          "module": "legacy-support-v4",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.cardview",
+          "module": "cardview",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.takisoft.preferencex",
+          "module": "preferencex",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.2"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxandroid",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "org.greenrobot",
+          "module": "eventbus",
+          "version": {
+            "requires": "3.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "libPlayer-1.0.3-SNAPSHOT.aar",
+          "url": "libPlayer-1.0.3-SNAPSHOT.aar",
+          "size": 9589648,
+          "sha512": "430673f88fe78a786f015fe8273ff03060534923b6278d346183a398b9858da7cbd98ac2f0416fd764bf518a94424fbe98c52ae8f2ebb073448f3cdbfe9857a6",
+          "sha256": "57714eb93709453d2090b3624da1f77b19368fdc129d160c82db4796505bf786",
+          "sha1": "8006ce12e38f05f6fcdf8e60284dea7725da6756",
+          "md5": "0be31f6a3651eee00f6e1fd6453ab83a"
+        }
+      ]
+    }
+  ]
+}

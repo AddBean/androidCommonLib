@@ -1,0 +1,230 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.hive.utils",
+    "module": "libUtils",
+    "version": "1.0.6-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.leakcanary",
+          "module": "leakcanary-android-no-op",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "com.github.bumptech.glide",
+          "module": "okhttp3-integration",
+          "version": {
+            "requires": "4.7.1"
+          }
+        },
+        {
+          "group": "pl.droidsonroids.gif",
+          "module": "android-gif-drawable",
+          "version": {
+            "requires": "1.2.12"
+          }
+        },
+        {
+          "group": "com.github.Raizlabs.DBFlow",
+          "module": "dbflow-core",
+          "version": {
+            "requires": "4.2.4"
+          }
+        },
+        {
+          "group": "com.github.Raizlabs.DBFlow",
+          "module": "dbflow",
+          "version": {
+            "requires": "4.2.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "libUtils-1.0.6-SNAPSHOT.aar",
+          "url": "libUtils-1.0.6-SNAPSHOT.aar",
+          "size": 373618,
+          "sha512": "5f78e5e92033f19f87b75fb5ad92a452334d536c11261bda84d66478e44ec9aae2bf69fa18ae5f9d721959ae86249c1465fbabf10a7a2e84961c08357cebc00d",
+          "sha256": "8dc1c9860998797482fa318077d5b18a18778e1a0c40ca22194e23e75c528a61",
+          "sha1": "83b5ecf34d537db43827178da36a03e660899ecf",
+          "md5": "51ebd1aa8ff722a61f3e9c65e46717c9"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.leakcanary",
+          "module": "leakcanary-android-no-op",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "com.github.bumptech.glide",
+          "module": "okhttp3-integration",
+          "version": {
+            "requires": "4.7.1"
+          }
+        },
+        {
+          "group": "pl.droidsonroids.gif",
+          "module": "android-gif-drawable",
+          "version": {
+            "requires": "1.2.12"
+          }
+        },
+        {
+          "group": "com.github.Raizlabs.DBFlow",
+          "module": "dbflow-core",
+          "version": {
+            "requires": "4.2.4"
+          }
+        },
+        {
+          "group": "com.github.Raizlabs.DBFlow",
+          "module": "dbflow",
+          "version": {
+            "requires": "4.2.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-android-extensions-runtime",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.71"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "1.1.3"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.legacy",
+          "module": "legacy-support-v4",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.cardview",
+          "module": "cardview",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.takisoft.preferencex",
+          "module": "preferencex",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.2"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxandroid",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "org.greenrobot",
+          "module": "eventbus",
+          "version": {
+            "requires": "3.1.1"
+          }
+        },
+        {
+          "group": "com.tencent",
+          "module": "mmkv",
+          "version": {
+            "requires": "1.2.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "libUtils-1.0.6-SNAPSHOT.aar",
+          "url": "libUtils-1.0.6-SNAPSHOT.aar",
+          "size": 373618,
+          "sha512": "5f78e5e92033f19f87b75fb5ad92a452334d536c11261bda84d66478e44ec9aae2bf69fa18ae5f9d721959ae86249c1465fbabf10a7a2e84961c08357cebc00d",
+          "sha256": "8dc1c9860998797482fa318077d5b18a18778e1a0c40ca22194e23e75c528a61",
+          "sha1": "83b5ecf34d537db43827178da36a03e660899ecf",
+          "md5": "51ebd1aa8ff722a61f3e9c65e46717c9"
+        }
+      ]
+    }
+  ]
+}

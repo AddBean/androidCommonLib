@@ -1,0 +1,290 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.hive.adv",
+    "module": "libAdv",
+    "version": "1.0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "libAdv-1.0.1-SNAPSHOT.aar",
+          "url": "libAdv-1.0.1-SNAPSHOT.aar",
+          "size": 244452,
+          "sha512": "e57ddaceb8c0bf1b028b8645a5f956febb1fd39cdecf601b258558a4e861f7e5052fc731e543990e6c7476844d39e55702bec90f27bd1a8716ac50f6d0dce798",
+          "sha256": "a2372851942cdab3ba58429c3a3ffada8f61f2ddbe1dd2a7f8a05f4651e63775",
+          "sha1": "5e4fbb65f8c052df9f6f527ff6cb209b1fd6ba11",
+          "md5": "54e9e4d5d16a531909e1c214ce77490f"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-android-extensions-runtime",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.71"
+          }
+        },
+        {
+          "group": "com.hive.views",
+          "module": "libViews",
+          "version": {
+            "requires": "1.0.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.hive.utils",
+          "module": "libUtils",
+          "version": {
+            "requires": "1.0.6-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.hive.image",
+          "module": "libImage",
+          "version": {
+            "requires": "1.0.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.hive.net",
+          "module": "libNet",
+          "version": {
+            "requires": "1.0.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.hive.basenative",
+          "module": "libBaseNative",
+          "version": {
+            "requires": "1.0.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.hive.base",
+          "module": "libBase",
+          "version": {
+            "requires": "1.0.5-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.hive.compon",
+          "module": "libCompon",
+          "version": {
+            "requires": "1.0.10-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-ads",
+          "version": {
+            "requires": "19.5.0"
+          }
+        },
+        {
+          "group": "com.facebook.android",
+          "module": "facebook-android-sdk",
+          "version": {
+            "requires": "6.0.0"
+          },
+          "excludes": [
+            {
+              "group": "com.google.zxing",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.facebook.android",
+          "module": "audience-network-sdk",
+          "version": {
+            "requires": "6.8.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "1.1.3"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.legacy",
+          "module": "legacy-support-v4",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.cardview",
+          "module": "cardview",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.takisoft.preferencex",
+          "module": "preferencex",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.2"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxandroid",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "org.greenrobot",
+          "module": "eventbus",
+          "version": {
+            "requires": "3.1.1"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "reward",
+          "version": {
+            "requires": "15.8.01"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "interstitialvideo",
+          "version": {
+            "requires": "15.8.01"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "mbnative",
+          "version": {
+            "requires": "15.8.01"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "mbnativeadvanced",
+          "version": {
+            "requires": "15.8.01"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "interstitial",
+          "version": {
+            "requires": "15.8.01"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "mbbanner",
+          "version": {
+            "requires": "15.8.01"
+          }
+        },
+        {
+          "group": "com.mbridge.msdk.oversea",
+          "module": "mbsplash",
+          "version": {
+            "requires": "15.8.01"
+          }
+        },
+        {
+          "group": "com.adcolony",
+          "module": "sdk",
+          "version": {
+            "requires": "4.8.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-ads-identifier",
+          "version": {
+            "requires": "18.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "libAdv-1.0.1-SNAPSHOT.aar",
+          "url": "libAdv-1.0.1-SNAPSHOT.aar",
+          "size": 244452,
+          "sha512": "e57ddaceb8c0bf1b028b8645a5f956febb1fd39cdecf601b258558a4e861f7e5052fc731e543990e6c7476844d39e55702bec90f27bd1a8716ac50f6d0dce798",
+          "sha256": "a2372851942cdab3ba58429c3a3ffada8f61f2ddbe1dd2a7f8a05f4651e63775",
+          "sha1": "5e4fbb65f8c052df9f6f527ff6cb209b1fd6ba11",
+          "md5": "54e9e4d5d16a531909e1c214ce77490f"
+        }
+      ]
+    }
+  ]
+}
