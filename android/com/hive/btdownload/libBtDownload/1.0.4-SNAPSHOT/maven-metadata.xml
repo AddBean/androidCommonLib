@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.hive.btdownload</groupId>
+  <artifactId>libBtDownload</artifactId>
+  <version>1.0.4-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20221221.081725</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20221221081725</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0.4-20221221.081725-1</value>
+        <updated>20221221081725</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>aar</extension>
+        <value>1.0.4-20221221.081725-1</value>
+        <updated>20221221081725</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.0.4-20221221.081725-1</value>
+        <updated>20221221081725</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
