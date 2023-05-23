@@ -3,7 +3,7 @@
   <groupId>com.hive.chat</groupId>
   <artifactId>libChat</artifactId>
   <versioning>
-    <latest>1.0.4-SNAPSHOT</latest>
+    <latest>1.0.5-SNAPSHOT</latest>
     <release>1.0.4</release>
     <versions>
       <version>1.0.0</version>
@@ -13,7 +13,8 @@
       <version>1.0.3</version>
       <version>1.0.4</version>
       <version>1.0.4-SNAPSHOT</version>
+      <version>1.0.5-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20221214051517</lastUpdated>
+    <lastUpdated>20230523081553</lastUpdated>
   </versioning>
 </metadata>

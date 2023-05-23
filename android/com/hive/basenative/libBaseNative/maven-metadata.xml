@@ -3,7 +3,7 @@
   <groupId>com.hive.basenative</groupId>
   <artifactId>libBaseNative</artifactId>
   <versioning>
-    <latest>1.0.2-SNAPSHOT</latest>
+    <latest>1.0.3-SNAPSHOT</latest>
     <release>1.0.2</release>
     <versions>
       <version>1.0.0</version>
@@ -11,7 +11,8 @@
       <version>1.0.1-SNAPSHOT</version>
       <version>1.0.2</version>
       <version>1.0.2-SNAPSHOT</version>
+      <version>1.0.3-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20221214051518</lastUpdated>
+    <lastUpdated>20230523081414</lastUpdated>
   </versioning>
 </metadata>
