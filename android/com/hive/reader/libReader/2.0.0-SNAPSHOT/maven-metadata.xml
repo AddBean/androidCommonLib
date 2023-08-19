@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.hive.reader</groupId>
+  <artifactId>libReader</artifactId>
+  <version>2.0.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20230819.120904</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20230819120904</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>2.0.0-20230819.120904-1</value>
+        <updated>20230819120904</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>aar</extension>
+        <value>2.0.0-20230819.120904-1</value>
+        <updated>20230819120904</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>2.0.0-20230819.120904-1</value>
+        <updated>20230819120904</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
