@@ -1,0 +1,151 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.hive.btcore",
+    "module": "libBtCore",
+    "version": "2.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "libBtCore-2.0.0-SNAPSHOT.aar",
+          "url": "libBtCore-2.0.0-SNAPSHOT.aar",
+          "size": 2305413,
+          "sha512": "cb25edb6f6387a343544826ee85d5c4e9119c773c92f61e1a143d4c8477cfd4f0e8152cad8f259cc0b5987c9680730f6f1580d475c5a9338b2df08ade6e9fb12",
+          "sha256": "e13cf5c85833fd11dd42256cfd956a92db619aaa69a516b427152ccc20f04466",
+          "sha1": "17627934f0035975d8d6d580c0b1bc5b9c0dccc6",
+          "md5": "a388235283edcc6073c0e59f79e03dec"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.hive.utils",
+          "module": "libUtils",
+          "version": {
+            "requires": "2.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.hive.compon",
+          "module": "libCompon",
+          "version": {
+            "requires": "2.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "1.1.3"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.legacy",
+          "module": "legacy-support-v4",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.cardview",
+          "module": "cardview",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.takisoft.preferencex",
+          "module": "preferencex",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.2"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxandroid",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "org.greenrobot",
+          "module": "eventbus",
+          "version": {
+            "requires": "3.3.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "libBtCore-2.0.0-SNAPSHOT.aar",
+          "url": "libBtCore-2.0.0-SNAPSHOT.aar",
+          "size": 2305413,
+          "sha512": "cb25edb6f6387a343544826ee85d5c4e9119c773c92f61e1a143d4c8477cfd4f0e8152cad8f259cc0b5987c9680730f6f1580d475c5a9338b2df08ade6e9fb12",
+          "sha256": "e13cf5c85833fd11dd42256cfd956a92db619aaa69a516b427152ccc20f04466",
+          "sha1": "17627934f0035975d8d6d580c0b1bc5b9c0dccc6",
+          "md5": "a388235283edcc6073c0e59f79e03dec"
+        }
+      ]
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   <groupId>com.hive.btdownload</groupId>
   <artifactId>libBtDownload</artifactId>
   <versioning>
-    <latest>1.0.5-SNAPSHOT</latest>
+    <latest>2.0.0-SNAPSHOT</latest>
     <release>1.0.2</release>
     <versions>
       <version>1.0.0</version>
@@ -14,7 +14,8 @@
       <version>1.0.3-SNAPSHOT</version>
       <version>1.0.4-SNAPSHOT</version>
       <version>1.0.5-SNAPSHOT</version>
+      <version>2.0.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20221224085335</lastUpdated>
+    <lastUpdated>20230819121304</lastUpdated>
   </versioning>
 </metadata>

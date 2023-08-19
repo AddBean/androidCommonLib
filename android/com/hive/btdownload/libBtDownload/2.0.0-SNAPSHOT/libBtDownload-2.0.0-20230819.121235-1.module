@@ -1,0 +1,383 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.hive.btdownload",
+    "module": "libBtDownload",
+    "version": "2.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-common",
+          "version": {
+            "requires": "7.0.3"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-runtime",
+          "version": {
+            "requires": "7.0.3"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-adapters",
+          "version": {
+            "requires": "7.0.3"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-ktx",
+          "version": {
+            "requires": "7.0.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "libBtDownload-2.0.0-SNAPSHOT.aar",
+          "url": "libBtDownload-2.0.0-SNAPSHOT.aar",
+          "size": 802991,
+          "sha512": "d823d9b5f6ce1b2b40ce2fc95653b45736403f9d5dc650d607cc48a39c28d394e2446dc03025f48825241f23920963099572f9944dd909e9aa545fecb167ede5",
+          "sha256": "fbe7c0893ff40c15ac23ef3b68532bfa53fd24cc17e1758d6c2a103885293780",
+          "sha1": "afe673e3691a6ec9eb3ca21797655cd5a227525c",
+          "md5": "c056e14c8b91e81dccf7a2b8dff5045d"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-common",
+          "version": {
+            "requires": "7.0.3"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-runtime",
+          "version": {
+            "requires": "7.0.3"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-adapters",
+          "version": {
+            "requires": "7.0.3"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-ktx",
+          "version": {
+            "requires": "7.0.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-android-extensions-runtime",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.71"
+          }
+        },
+        {
+          "group": "com.hive.views",
+          "module": "libViews",
+          "version": {
+            "requires": "2.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.hive.utils",
+          "module": "libUtils",
+          "version": {
+            "requires": "2.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.hive.image",
+          "module": "libImage",
+          "version": {
+            "requires": "2.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.hive.net",
+          "module": "libNet",
+          "version": {
+            "requires": "2.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.hive.basenative",
+          "module": "libBaseNative",
+          "version": {
+            "requires": "2.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.hive.base",
+          "module": "libBase",
+          "version": {
+            "requires": "2.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.hive.compon",
+          "module": "libCompon",
+          "version": {
+            "requires": "2.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.hive.files",
+          "module": "libFiles",
+          "version": {
+            "requires": "2.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.hive.third",
+          "module": "libThird",
+          "version": {
+            "requires": "2.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "androidx.room",
+          "module": "room-rxjava2",
+          "version": {
+            "requires": "2.4.0-beta01"
+          }
+        },
+        {
+          "group": "androidx.room",
+          "module": "room-runtime",
+          "version": {
+            "requires": "2.4.0-beta01"
+          }
+        },
+        {
+          "group": "androidx.work",
+          "module": "work-runtime",
+          "version": {
+            "requires": "2.7.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "org.libtorrent4j",
+          "module": "libtorrent4j",
+          "version": {
+            "requires": "2.0.3-16"
+          }
+        },
+        {
+          "group": "org.libtorrent4j",
+          "module": "libtorrent4j-android-arm",
+          "version": {
+            "requires": "2.0.3-16"
+          }
+        },
+        {
+          "group": "org.libtorrent4j",
+          "module": "libtorrent4j-android-arm64",
+          "version": {
+            "requires": "2.0.3-16"
+          }
+        },
+        {
+          "group": "net.cachapa.expandablelayout",
+          "module": "expandablelayout",
+          "version": {
+            "requires": "2.9.2"
+          }
+        },
+        {
+          "group": "com.h6ah4i.android.widget.advrecyclerview",
+          "module": "advrecyclerview",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.github.anthonynsimon",
+          "module": "jurl",
+          "version": {
+            "requires": "v0.4.2"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.5"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-text",
+          "version": {
+            "requires": "1.9"
+          }
+        },
+        {
+          "group": "com.leinardi.android",
+          "module": "speed-dial",
+          "version": {
+            "requires": "3.1.1"
+          }
+        },
+        {
+          "group": "net.java.dev.jna",
+          "module": "jna",
+          "version": {
+            "requires": "5.6.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ],
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "jna",
+              "type": "aar",
+              "extension": "aar"
+            }
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "1.1.3"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.legacy",
+          "module": "legacy-support-v4",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.cardview",
+          "module": "cardview",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.takisoft.preferencex",
+          "module": "preferencex",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.2"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxandroid",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "org.greenrobot",
+          "module": "eventbus",
+          "version": {
+            "requires": "3.3.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "libBtDownload-2.0.0-SNAPSHOT.aar",
+          "url": "libBtDownload-2.0.0-SNAPSHOT.aar",
+          "size": 802991,
+          "sha512": "d823d9b5f6ce1b2b40ce2fc95653b45736403f9d5dc650d607cc48a39c28d394e2446dc03025f48825241f23920963099572f9944dd909e9aa545fecb167ede5",
+          "sha256": "fbe7c0893ff40c15ac23ef3b68532bfa53fd24cc17e1758d6c2a103885293780",
+          "sha1": "afe673e3691a6ec9eb3ca21797655cd5a227525c",
+          "md5": "c056e14c8b91e81dccf7a2b8dff5045d"
+        }
+      ]
+    }
+  ]
+}
