@@ -1,0 +1,200 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.hive.rphost",
+    "module": "libRPHost",
+    "version": "2.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "libRPHost-2.0.0-SNAPSHOT.aar",
+          "url": "libRPHost-2.0.0-SNAPSHOT.aar",
+          "size": 49136,
+          "sha512": "7524eac0f825bf804ff21adcda8fbfbb69a4ceee0e23dec4a5ac2cb1524dddc0b1e8818c2d182413da8d4728ad67ae37cd2eb5b666aabfc596a3a199aa128d2b",
+          "sha256": "b2b2babdef4d64bc0c5ad9dd065ddd37909db57a3edeaadbbea73d7551621052",
+          "sha1": "6087262682d5ccc688f2a57cce20175a8f3de434",
+          "md5": "2b34b5dff2db015d64d2e9e4c8a690a5"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.qihoo360.replugin",
+          "module": "replugin-host-lib",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "com.hive.views",
+          "module": "libViews",
+          "version": {
+            "requires": "2.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.hive.utils",
+          "module": "libUtils",
+          "version": {
+            "requires": "2.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.hive.compon",
+          "module": "libCompon",
+          "version": {
+            "requires": "2.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.hive.image",
+          "module": "libImage",
+          "version": {
+            "requires": "2.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.hive.net",
+          "module": "libNet",
+          "version": {
+            "requires": "2.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.hive.basenative",
+          "module": "libBaseNative",
+          "version": {
+            "requires": "2.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.hive.base",
+          "module": "libBase",
+          "version": {
+            "requires": "2.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.hive.adv",
+          "module": "libAdv",
+          "version": {
+            "requires": "2.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "1.1.3"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.legacy",
+          "module": "legacy-support-v4",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.cardview",
+          "module": "cardview",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.takisoft.preferencex",
+          "module": "preferencex",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.2"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxandroid",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "org.greenrobot",
+          "module": "eventbus",
+          "version": {
+            "requires": "3.3.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "libRPHost-2.0.0-SNAPSHOT.aar",
+          "url": "libRPHost-2.0.0-SNAPSHOT.aar",
+          "size": 49136,
+          "sha512": "7524eac0f825bf804ff21adcda8fbfbb69a4ceee0e23dec4a5ac2cb1524dddc0b1e8818c2d182413da8d4728ad67ae37cd2eb5b666aabfc596a3a199aa128d2b",
+          "sha256": "b2b2babdef4d64bc0c5ad9dd065ddd37909db57a3edeaadbbea73d7551621052",
+          "sha1": "6087262682d5ccc688f2a57cce20175a8f3de434",
+          "md5": "2b34b5dff2db015d64d2e9e4c8a690a5"
+        }
+      ]
+    }
+  ]
+}
