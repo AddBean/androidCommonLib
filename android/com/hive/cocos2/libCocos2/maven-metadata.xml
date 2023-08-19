@@ -3,13 +3,14 @@
   <groupId>com.hive.cocos2</groupId>
   <artifactId>libCocos2</artifactId>
   <versioning>
-    <latest>1.0.1-SNAPSHOT</latest>
+    <latest>2.0.0-SNAPSHOT</latest>
     <release>1.0.1</release>
     <versions>
       <version>1.0.0</version>
       <version>1.0.1</version>
       <version>1.0.1-SNAPSHOT</version>
+      <version>2.0.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20221214051519</lastUpdated>
+    <lastUpdated>20230819121158</lastUpdated>
   </versioning>
 </metadata>
