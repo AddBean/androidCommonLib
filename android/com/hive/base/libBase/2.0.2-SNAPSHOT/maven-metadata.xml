@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.hive.base</groupId>
+  <artifactId>libBase</artifactId>
+  <version>2.0.2-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20230823.142521</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20230823142521</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>aar</extension>
+        <value>2.0.2-20230823.142521-1</value>
+        <updated>20230823142521</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>2.0.2-20230823.142521-1</value>
+        <updated>20230823142521</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>2.0.2-20230823.142521-1</value>
+        <updated>20230823142521</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
