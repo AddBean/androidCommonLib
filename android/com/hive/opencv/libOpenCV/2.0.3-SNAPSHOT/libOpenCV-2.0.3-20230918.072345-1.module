@@ -3,7 +3,7 @@
   "component": {
     "group": "com.hive.opencv",
     "module": "libOpenCV",
-    "version": "2.0.2-SNAPSHOT",
+    "version": "2.0.3-SNAPSHOT",
     "attributes": {
       "org.gradle.status": "integration"
     }
@@ -24,13 +24,13 @@
       },
       "files": [
         {
-          "name": "libOpenCV-2.0.2-SNAPSHOT.aar",
-          "url": "libOpenCV-2.0.2-SNAPSHOT.aar",
-          "size": 13583773,
-          "sha512": "dff60bd179298fdf2c546e2b602e19b14d5ed5a15460bf7d126b306afb14405077fb2c8bceb626ca6a011ff3a1c810d7a297ef3a1a309197d3aadbc24971aba7",
-          "sha256": "937cf91082c23cacd484e298a1fad27f9907046d8dd8548c6d31055e239779a2",
-          "sha1": "5643f2be9cf9c6640e0df4ff506922aa36461063",
-          "md5": "18a9feab40c331c813ebfe910cdafea0"
+          "name": "libOpenCV-2.0.3-SNAPSHOT.aar",
+          "url": "libOpenCV-2.0.3-SNAPSHOT.aar",
+          "size": 14008294,
+          "sha512": "471890ae2d401b0407af9a598c9890673de31ff46e7551710336f68768eec8c9f5ece61a16340ef154282a872cacdb1934f692ef0050b34046e7386549adf22b",
+          "sha256": "1967a4954290d0c82cfe261ebce2ff3f83fc9e287e3c88759660be003c05924a",
+          "sha1": "db1471000922a71223436088dd68c901bb2fde4a",
+          "md5": "79d8d065b192e9bd4c84e7d9e79acad0"
         }
       ]
     },
@@ -186,13 +186,13 @@
       ],
       "files": [
         {
-          "name": "libOpenCV-2.0.2-SNAPSHOT.aar",
-          "url": "libOpenCV-2.0.2-SNAPSHOT.aar",
-          "size": 13583773,
-          "sha512": "dff60bd179298fdf2c546e2b602e19b14d5ed5a15460bf7d126b306afb14405077fb2c8bceb626ca6a011ff3a1c810d7a297ef3a1a309197d3aadbc24971aba7",
-          "sha256": "937cf91082c23cacd484e298a1fad27f9907046d8dd8548c6d31055e239779a2",
-          "sha1": "5643f2be9cf9c6640e0df4ff506922aa36461063",
-          "md5": "18a9feab40c331c813ebfe910cdafea0"
+          "name": "libOpenCV-2.0.3-SNAPSHOT.aar",
+          "url": "libOpenCV-2.0.3-SNAPSHOT.aar",
+          "size": 14008294,
+          "sha512": "471890ae2d401b0407af9a598c9890673de31ff46e7551710336f68768eec8c9f5ece61a16340ef154282a872cacdb1934f692ef0050b34046e7386549adf22b",
+          "sha256": "1967a4954290d0c82cfe261ebce2ff3f83fc9e287e3c88759660be003c05924a",
+          "sha1": "db1471000922a71223436088dd68c901bb2fde4a",
+          "md5": "79d8d065b192e9bd4c84e7d9e79acad0"
         }
       ]
     }
