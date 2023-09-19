@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.hive.ocr</groupId>
+  <artifactId>libOcr</artifactId>
+  <version>2.0.1-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20230919.094410</timestamp>
+      <buildNumber>2</buildNumber>
+    </snapshot>
+    <lastUpdated>20230919094410</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>aar</extension>
+        <value>2.0.1-20230919.094410-2</value>
+        <updated>20230919094410</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>2.0.1-20230919.094410-2</value>
+        <updated>20230919094410</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>2.0.1-20230919.094410-2</value>
+        <updated>20230919094410</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
