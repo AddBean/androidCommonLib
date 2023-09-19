@@ -3,7 +3,7 @@
   "component": {
     "group": "com.hive.opencv",
     "module": "libOpenCV",
-    "version": "2.0.4-SNAPSHOT",
+    "version": "2.0.5-SNAPSHOT",
     "attributes": {
       "org.gradle.status": "integration"
     }
@@ -24,8 +24,8 @@
       },
       "files": [
         {
-          "name": "libOpenCV-2.0.4-SNAPSHOT.aar",
-          "url": "libOpenCV-2.0.4-SNAPSHOT.aar",
+          "name": "libOpenCV-2.0.5-SNAPSHOT.aar",
+          "url": "libOpenCV-2.0.5-SNAPSHOT.aar",
           "size": 14008294,
           "sha512": "471890ae2d401b0407af9a598c9890673de31ff46e7551710336f68768eec8c9f5ece61a16340ef154282a872cacdb1934f692ef0050b34046e7386549adf22b",
           "sha256": "1967a4954290d0c82cfe261ebce2ff3f83fc9e287e3c88759660be003c05924a",
@@ -186,8 +186,8 @@
       ],
       "files": [
         {
-          "name": "libOpenCV-2.0.4-SNAPSHOT.aar",
-          "url": "libOpenCV-2.0.4-SNAPSHOT.aar",
+          "name": "libOpenCV-2.0.5-SNAPSHOT.aar",
+          "url": "libOpenCV-2.0.5-SNAPSHOT.aar",
           "size": 14008294,
           "sha512": "471890ae2d401b0407af9a598c9890673de31ff46e7551710336f68768eec8c9f5ece61a16340ef154282a872cacdb1934f692ef0050b34046e7386549adf22b",
           "sha256": "1967a4954290d0c82cfe261ebce2ff3f83fc9e287e3c88759660be003c05924a",
