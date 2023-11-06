@@ -3,7 +3,7 @@
   "component": {
     "group": "com.hive.gradle.classplugin",
     "module": "hive-class-guard",
-    "version": "2.0.5",
+    "version": "2.0.6",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -43,8 +43,8 @@
       ],
       "files": [
         {
-          "name": "hive-class-guard-2.0.5.jar",
-          "url": "hive-class-guard-2.0.5.jar",
+          "name": "hive-class-guard-2.0.6.jar",
+          "url": "hive-class-guard-2.0.6.jar",
           "size": 135806,
           "sha512": "83fb9fd6716f61f09d6e57ad88990be9cf9a848ec64718811cece41b91135616f058357057f00bfee7a63383bb7d6ffaed69d8fa42aefe157cb445cc7ae74e8e",
           "sha256": "5deee98244974f45f8ddda9c62c1be336b634f2d319a0240483b886a94674d3a",
@@ -89,8 +89,8 @@
       ],
       "files": [
         {
-          "name": "hive-class-guard-2.0.5.jar",
-          "url": "hive-class-guard-2.0.5.jar",
+          "name": "hive-class-guard-2.0.6.jar",
+          "url": "hive-class-guard-2.0.6.jar",
           "size": 135806,
           "sha512": "83fb9fd6716f61f09d6e57ad88990be9cf9a848ec64718811cece41b91135616f058357057f00bfee7a63383bb7d6ffaed69d8fa42aefe157cb445cc7ae74e8e",
           "sha256": "5deee98244974f45f8ddda9c62c1be336b634f2d319a0240483b886a94674d3a",
