@@ -46,10 +46,10 @@
           "name": "hive-class-guard-2.0.6.jar",
           "url": "hive-class-guard-2.0.6.jar",
           "size": 135806,
-          "sha512": "83fb9fd6716f61f09d6e57ad88990be9cf9a848ec64718811cece41b91135616f058357057f00bfee7a63383bb7d6ffaed69d8fa42aefe157cb445cc7ae74e8e",
-          "sha256": "5deee98244974f45f8ddda9c62c1be336b634f2d319a0240483b886a94674d3a",
-          "sha1": "d0c668bfbe6bd3914030fef300d23c9031a21f8f",
-          "md5": "7dca5988d5379379f72d81daaf142ad1"
+          "sha512": "b87746575a867177625b75dd7f791570aadac67ab79ce9a7a0165be8a672889b223e94ceed34ac433763eeff9584e2bbad862b0bc8dd8af9ef243a49f6410412",
+          "sha256": "762dd27dca8a987103bcc02abc7b12dd348a23454083f626188d8ea6177c6936",
+          "sha1": "e5440c1291eab13986df800468e12c420fadb1fc",
+          "md5": "3768e53324e495e90cc2ce8b3e1b1e6c"
         }
       ]
     },
@@ -92,10 +92,10 @@
           "name": "hive-class-guard-2.0.6.jar",
           "url": "hive-class-guard-2.0.6.jar",
           "size": 135806,
-          "sha512": "83fb9fd6716f61f09d6e57ad88990be9cf9a848ec64718811cece41b91135616f058357057f00bfee7a63383bb7d6ffaed69d8fa42aefe157cb445cc7ae74e8e",
-          "sha256": "5deee98244974f45f8ddda9c62c1be336b634f2d319a0240483b886a94674d3a",
-          "sha1": "d0c668bfbe6bd3914030fef300d23c9031a21f8f",
-          "md5": "7dca5988d5379379f72d81daaf142ad1"
+          "sha512": "b87746575a867177625b75dd7f791570aadac67ab79ce9a7a0165be8a672889b223e94ceed34ac433763eeff9584e2bbad862b0bc8dd8af9ef243a49f6410412",
+          "sha256": "762dd27dca8a987103bcc02abc7b12dd348a23454083f626188d8ea6177c6936",
+          "sha1": "e5440c1291eab13986df800468e12c420fadb1fc",
+          "md5": "3768e53324e495e90cc2ce8b3e1b1e6c"
         }
       ]
     }
