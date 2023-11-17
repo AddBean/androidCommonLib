@@ -3,7 +3,7 @@
   "component": {
     "group": "com.hive.gradle.classplugin",
     "module": "hive-class-guard",
-    "version": "2.0.7",
+    "version": "2.0.8",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -43,13 +43,13 @@
       ],
       "files": [
         {
-          "name": "hive-class-guard-2.0.7.jar",
-          "url": "hive-class-guard-2.0.7.jar",
-          "size": 135914,
-          "sha512": "af03bda7fb543021a5d3ae50e8aec209f7abe2d74a6231fda00b36332145ac0075a9526ed968df4b05a6e4ae1d3e54076734b8f23460fe1100a5d454eedcc27b",
-          "sha256": "7ee6f6180502578f18e8d30b94c6c4f5ec05e16e6ff50c93d42a56f2b450570b",
-          "sha1": "072ec3281836efcd49f599e2a0d8eff2669f9598",
-          "md5": "7a612154e133a9a254785c73e47346fb"
+          "name": "hive-class-guard-2.0.8.jar",
+          "url": "hive-class-guard-2.0.8.jar",
+          "size": 135922,
+          "sha512": "e19791433bd1ba85af834adc5e85e989f6396508664faa45a486c5af1f007232143d1f4787391648b62a1f3e085a1788b101d0c5ecbb18c741b704e35a977aaa",
+          "sha256": "73060575179437260e63ef7e065e8e7155a2bbfb96794b922e0a5193be49709f",
+          "sha1": "142dcc26ecca4fa01068b7a3c166e434752c9121",
+          "md5": "a2035bcc925321eeb6446451fcaba488"
         }
       ]
     },
@@ -89,13 +89,13 @@
       ],
       "files": [
         {
-          "name": "hive-class-guard-2.0.7.jar",
-          "url": "hive-class-guard-2.0.7.jar",
-          "size": 135914,
-          "sha512": "af03bda7fb543021a5d3ae50e8aec209f7abe2d74a6231fda00b36332145ac0075a9526ed968df4b05a6e4ae1d3e54076734b8f23460fe1100a5d454eedcc27b",
-          "sha256": "7ee6f6180502578f18e8d30b94c6c4f5ec05e16e6ff50c93d42a56f2b450570b",
-          "sha1": "072ec3281836efcd49f599e2a0d8eff2669f9598",
-          "md5": "7a612154e133a9a254785c73e47346fb"
+          "name": "hive-class-guard-2.0.8.jar",
+          "url": "hive-class-guard-2.0.8.jar",
+          "size": 135922,
+          "sha512": "e19791433bd1ba85af834adc5e85e989f6396508664faa45a486c5af1f007232143d1f4787391648b62a1f3e085a1788b101d0c5ecbb18c741b704e35a977aaa",
+          "sha256": "73060575179437260e63ef7e065e8e7155a2bbfb96794b922e0a5193be49709f",
+          "sha1": "142dcc26ecca4fa01068b7a3c166e434752c9121",
+          "md5": "a2035bcc925321eeb6446451fcaba488"
         }
       ]
     }
