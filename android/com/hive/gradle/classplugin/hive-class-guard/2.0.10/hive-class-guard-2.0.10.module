@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.hive.gradle.classplugin",
+    "module": "hive-class-guard",
+    "version": "2.0.10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-xml",
+          "version": {
+            "requires": "3.0.13"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hive-class-guard-2.0.10.jar",
+          "url": "hive-class-guard-2.0.10.jar",
+          "size": 139075,
+          "sha512": "2aa5e91312401f5b1eebca7a45f6a4378dee6598b50272a3d08926bad20b2046d8731a85348dbe7988421ba38717352033349551215e0a36fb70c64ae0e60dc8",
+          "sha256": "c255ef8b493f98fb40af5853d61d5d019f49cdada47af4392e919c19e6497624",
+          "sha1": "07a4e89fa0df58dc25dee15dbd891984fcff28e3",
+          "md5": "bd774c2f057f26ce8935a4e366be018e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.3"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-xml",
+          "version": {
+            "requires": "3.0.13"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hive-class-guard-2.0.10.jar",
+          "url": "hive-class-guard-2.0.10.jar",
+          "size": 139075,
+          "sha512": "2aa5e91312401f5b1eebca7a45f6a4378dee6598b50272a3d08926bad20b2046d8731a85348dbe7988421ba38717352033349551215e0a36fb70c64ae0e60dc8",
+          "sha256": "c255ef8b493f98fb40af5853d61d5d019f49cdada47af4392e919c19e6497624",
+          "sha1": "07a4e89fa0df58dc25dee15dbd891984fcff28e3",
+          "md5": "bd774c2f057f26ce8935a4e366be018e"
+        }
+      ]
+    }
+  ]
+}
